@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#gnb {
+    position: relative;
+}
+#gnb .list_nav .nav_item + .nav_item {
+    margin-left: 12px;
+}
+
+#gnb .list_nav .nav_item {
+    float: left;
+}
+
+#gnb .list_nav {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    letter-space: -0.3px;
+}
