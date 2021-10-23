@@ -1,20 +1,53 @@
 @charset "utf-8";
 
-#gnb {
-    position: relative;
+h1 {
+  float: left;
+  padding-top: 60px;
+  margin-right: 50px;
 }
-#gnb .list_nav .nav_item + .nav_item {
-    margin-left: 12px;
+.nav {
+  padding-top: 60px;
+  float: left;
+}
+.nav > li {
+  float: left;
+}
+.nav > li + li {
+  padding-left: 40px;
+}
+.nav > li > ul {
+  display: none;
+  position: absolute;
+  width: 460px;
+  height: 120px;
+  left: 257px;
+  padding: 10px;
+  background: url("../images/gnb_bg.png") no-repeat;
+  z-index: 100;
+}
+.nav > li > ul > li {
+  margin: 10px;
+}
+.nav > li:hover > ul {
+  display: block;
 }
 
-#gnb .list_nav .nav_item {
-    float: left;
+.map {
+  float: left;
+  margin-left: 180px;
 }
-
-#gnb .list_nav {
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #000;
-    letter-space: -0.3px;
+.map > li {
+  float: left;
+}
+.map > li + li {
+  border-left: 1px solid gainsboro;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.map > li > ul {
+  display: none;
+  position: absolute;
+}
+.map > li:hover > ul {
+  display: block;
 }
