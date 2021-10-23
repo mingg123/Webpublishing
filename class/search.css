@@ -207,7 +207,7 @@ img {
   outline: 0;
 }
 
-/* .gnb_inner {
+.gnb_inner {
   margin-top: 20px;
   margin-left: 300px;
 }
@@ -228,4 +228,91 @@ img {
   margin-top: 5px;
   margin-left: 10px;
   list-style: none;
-} */
+}
+/* //메뉴 바 아래  */
+.content_container {
+  width: 1200px;
+  height: 1000px;
+  margin-left: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.login_layer {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  border: 1px solid pink;
+  margin: 20px 20px 20px 20px;
+}
+.advertise_1 {
+  /* background-color: aqua; */
+  flex-basis: 70%;
+}
+.loggin {
+  width: 325px;
+  margin-left: 20px;
+  background-color: #f7f9fa;
+}
+.news_layer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: gray;
+  margin: 20px 20px 20px 20px;
+}
+.newsInfo {
+  background-color: green;
+  flex-basis: 70%;
+}
+.issusInfo {
+  width: 300px;
+  background-color: yellowgreen;
+}
+.news_stance {
+  height: 300px;
+  background-color: tomato;
+  margin: 20px 20px 20px 20px;
+}
+.today_read {
+  height: 300px;
+  background-color: violet;
+  margin: 20px 20px 20px 20px;
+}
+
+.link_login {
+  color: #fff;
+}
+.login_container {
+  width: 300px;
+  height: 48px;
+  background-color: #19ce60;
+  border: 1px solid #15c654;
+  color: #fff;
+  text-align: center;
+  font-size: large;
+  padding-top: 10px;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.loggin_info {
+  display: flex;
+  flex-direction: row;
+}
+
+.loggin_id {
+  margin-right: 10px;
+}
+.loggin_id2 {
+  text-decoration: none;
+}
+.loggin_password {
+  margin-right: 90px;
+}
+.loggin_password2 {
+  text-decoration: none;
+}
+.login_join2 {
+  text-decoration: none;
+}
