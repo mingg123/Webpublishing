@@ -1,237 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" href="search.css" />
-  </head>
-  <body>
-    <div id = "wrap">
-        <div id="header" role="banner">
-        <div
-          class="special_bg special_hidden"
-          data-search-window-color="#ebad35"
-        >
-          <div class="group_flex">
-            <div class="logo_area">
-              <h1 class="logo_special">
-                <img
-                  src="https://s.pstatic.net/static/www/mobile/edit/20211022/mobile_1359412796.gif"
-                  width="1230"
-                  height="160"
-                  class="special_img"
-                  alt="상강"
-                />
-                </a>
-              </h1>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <link rel="stylesheet" href="search.css"/>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header" role="banner">
+                <div class="special_bg special_hidden" data-search-window-color="#ebad35">
+                    <div class="group_flex">
+                        <div class="logo_area">
+                            <h1 class="logo_special">
+                                <img
+                                    src="https://s.pstatic.net/static/www/mobile/edit/20211022/mobile_1359412796.gif"
+                                    width="1230"
+                                    height="160"
+                                    class="special_img"
+                                    alt="상강"/>
+                            </a>
+                        </h1>
+                    </div>
+                    <div id="search" class="search_area" data-clk-prefix="sch">
+                        <form action="https://search.naver.com/search.naver" method="get" role="search">
+                            <input id="query" name="query" type="text" class="input_text" value=""/>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div id="search" class="search_area" data-clk-prefix="sch">
-              <form
-                action="https://search.naver.com/search.naver"
-                method="get"
-                role="search"
-              >
-                    <input
-                      id="query"
-                      name="query"
-                      type="text"
-                      class="input_text"     
-                      value=""
-                    />
-              </form>      
-            </div>
-          </div>
-        </div>
 
-        <!--EMPTY-->
-        <div id="gnb">
-          <div id="NM_FAVORITE" class="gnb_inner">
-            <div class="group_nav">
-              <ul class="list_nav type_fix">
-                <li class="nav_item">
-                  <a
-                    href="https://mail.naver.com/"
-                    class="nav"
-                    data-clk="svc.mail"
-                    ><i class="ico_mail"></i>메일</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://section.cafe.naver.com/"
-                    class="nav"
-                    data-clk="svc.cafe"
-                    >카페</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://section.blog.naver.com/"
-                    class="nav"
-                    data-clk="svc.blog"
-                    >블로그</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://kin.naver.com/"
-                    class="nav"
-                    data-clk="svc.kin"
-                    >지식iN</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://shopping.naver.com/"
-                    class="nav"
-                    data-clk="svc.shopping"
-                    >쇼핑</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://shoppinglive.naver.com/home"
-                    class="nav"
-                    data-clk="svc.shoppinglive"
-                    >쇼핑LIVE</a
-                  >
-                </li>
-                <li class="nav_item2">
-                  <a
-                    href="https://order.pay.naver.com/home"
-                    class="nav"
-                    data-clk="svc.pay"
-                    >Pay</a
-                  >
-                </li>
-                <li class="nav_item2">
-                  <a
-                    href="https://tv.naver.com/"
-                    class="nav"
-                    data-clk="svc.tvcast"
-                    ><i class="ico_tv"></i>TV</a
-                  >
-                </li>
-              </ul>
-              <ul class="list_nav NM_FAVORITE_LIST">
-                <li class="nav_item">
-                  <a
-                    href="https://dict.naver.com/"
-                    class="nav"
-                    data-clk="svc.dic"
-                    >사전</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://news.naver.com/"
-                    class="nav"
-                    data-clk="svc.news"
-                    >뉴스</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://finance.naver.com/"
-                    class="nav"
-                    data-clk="svc.stock"
-                    >증권</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://land.naver.com/"
-                    class="nav"
-                    data-clk="svc.land"
-                    >부동산</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://map.naver.com/"
-                    class="nav"
-                    data-clk="svc.map"
-                    >지도</a
-                  >
-                </li>
-                <li class="nav_item2">
-                  <a
-                    href="https://vibe.naver.com/"
-                    class="nav"
-                    data-clk="svc.vibe"
-                    >VIBE</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://book.naver.com/"
-                    class="nav"
-                    data-clk="svc.book"
-                    >책</a
-                  >
-                </li>
-                <li class="nav_item">
-                  <a
-                    href="https://comic.naver.com/"
-                    class="nav"
-                    data-clk="svc.webtoon"
-                    >웹툰</a
-                  >
-                </li>
-              </ul>
+            <!--EMPTY-->
+            <div id="gnb">
+                <div id="NM_FAVORITE" class="gnb_inner">
+                    <div class="group_nav">
+                        <ul class="list_nav type_fix">
+                            <li class="nav_item">
+                                <a href="https://mail.naver.com/" class="nav" data-clk="svc.mail">
+                                    <i class="ico_mail"></i>메일</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://section.cafe.naver.com/" class="nav" data-clk="svc.cafe">카페</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://section.blog.naver.com/" class="nav" data-clk="svc.blog">블로그</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://kin.naver.com/" class="nav" data-clk="svc.kin">지식iN</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://shopping.naver.com/" class="nav" data-clk="svc.shopping">쇼핑</a >
+                            </li>
+                            <li class="nav_item">
+                                <a
+                                    href="https://shoppinglive.naver.com/home"
+                                    class="nav"
+                                    data-clk="svc.shoppinglive">쇼핑LIVE</a >
+                            </li>
+                            <li class="nav_item2">
+                                <a href="https://order.pay.naver.com/home" class="nav" data-clk="svc.pay">Pay</a >
+                            </li>
+                            <li class="nav_item2">
+                                <a href="https://tv.naver.com/" class="nav" data-clk="svc.tvcast">
+                                    <i class="ico_tv"></i>TV</a >
+                            </li>
+                        </ul>
+                        <ul class="list_nav NM_FAVORITE_LIST">
+                            <li class="nav_item">
+                                <a href="https://dict.naver.com/" class="nav" data-clk="svc.dic">사전</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://news.naver.com/" class="nav" data-clk="svc.news">뉴스</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://finance.naver.com/" class="nav" data-clk="svc.stock">증권</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://land.naver.com/" class="nav" data-clk="svc.land">부동산</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://map.naver.com/" class="nav" data-clk="svc.map">지도</a >
+                            </li>
+                            <li class="nav_item2">
+                                <a href="https://vibe.naver.com/" class="nav" data-clk="svc.vibe">VIBE</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://book.naver.com/" class="nav" data-clk="svc.book">책</a >
+                            </li>
+                            <li class="nav_item">
+                                <a href="https://comic.naver.com/" class="nav" data-clk="svc.webtoon">웹툰</a >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            </div>
-          </div>
         </div>
-        <!-- 메뉴바 완성 부분  -->
+        <!-- 메뉴바 완성 부분 -->
         <hr/>
         <div class="content_container">
             <div class="login_layer">
                 <div class="advertise_1">
-                  <a href="https://siape.veta.naver.com/fxclick?eu=EU10041889&amp;calp=1&amp;oj=A4YjrwVVtw%2FnT%2FxbVY5Bkq%2F%2Fij53Odw2rX%2Fuvydcf98Y2406BdCLNstkNZqo1YjmoWglYSU5fFks%2FQO1YoS9m9yqesx0buJA&amp;ac=8440000&amp;src=5426040&amp;br=3654822&amp;evtcd=P901&amp;x_ti=1308&amp;tb=&amp;oid=&amp;sid1=&amp;sid2=&amp;rk=733ce0c882b6b6afcc91c191bdb36a06&amp;eltts=W3k87dRDkjUYDoAfxMboTw%3D%3D&amp;lu=&amp;brs=Y&amp;">
-                    <img src="https://ssl.pstatic.net/tveta/libs/1350/1350908/f540da0dd1f8fff611ec_20211022112530598.jpg"  width="750px" height = "150px"/>
+                    <a
+                        href="https://siape.veta.naver.com/fxclick?eu=EU10041889&amp;calp=1&amp;oj=A4YjrwVVtw%2FnT%2FxbVY5Bkq%2F%2Fij53Odw2rX%2Fuvydcf98Y2406BdCLNstkNZqo1YjmoWglYSU5fFks%2FQO1YoS9m9yqesx0buJA&amp;ac=8440000&amp;src=5426040&amp;br=3654822&amp;evtcd=P901&amp;x_ti=1308&amp;tb=&amp;oid=&amp;sid1=&amp;sid2=&amp;rk=733ce0c882b6b6afcc91c191bdb36a06&amp;eltts=W3k87dRDkjUYDoAfxMboTw%3D%3D&amp;lu=&amp;brs=Y&amp;">
+                        <img
+                            src="https://ssl.pstatic.net/tveta/libs/1350/1350908/f540da0dd1f8fff611ec_20211022112530598.jpg"
+                            width="750px"
+                            height="150px"/>
                     </a>
-                 
+
                 </div>
-                <div class="loggin"> 
+                <div class="loggin">
                     <p class="login_msg">네이버를 더 안전하고 편리하게 이용하세요</p>
-                    <div class = "login_container">
+                    <div class="login_container">
                         <a
-                        href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"
-                        class="link_login"
-                        >
-                        <i class="ico_naver"></i> Naver 로그인</a>   
-                    </div> 
+                            href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"
+                            class="link_login">
+                            <i class="ico_naver"></i>
+                            Naver 로그인</a>
+                    </div>
                     <div class="loggin_info">
                         <div class="loggin_id">
-                            <a class="loggin_id2" href="https://nid.naver.com/user2/help/idInquiry.nhn?menu=idinquiry">아이디</a>
-                            
+                            <a
+                                class="loggin_id2"
+                                href="https://nid.naver.com/user2/help/idInquiry.nhn?menu=idinquiry">아이디</a>
+
                         </div>
-                        <div class="loggin_password"> <a class="loggin_password2" href="https://nid.naver.com/user2/help/pwInquiry.nhn?menu=pwinquiry">비밀번호찾기</a></div>
+                        <div class="loggin_password">
+                            <a
+                                class="loggin_password2"
+                                href="https://nid.naver.com/user2/help/pwInquiry.nhn?menu=pwinquiry">비밀번호찾기</a>
+                        </div>
                         <div class="loggin_join">
-                            <a class="login_join2" href ="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR&cpno=">회원가입 </a>
-                            </div>
+                            <a
+                                class="login_join2"
+                                href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR&cpno=">회원가입
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- //연합 뉴스, 이슈  -->
-               <div class="news_layer">
+            <!-- //연합 뉴스, 이슈 -->
+            <div class="news_layer">
                 <div class="newsInfo">
-                    연합 뉴스 
+                    <div>
+                        연합 뉴스
+                    </div>
+                    <img src="../icons/arrow.svg"/>
+                    <a
+                        href="https://news.naver.com/main/list.naver?mode=LPOD&amp;mid=sec&amp;sid1=001&amp;sid2=140&amp;oid=001&amp;isYeonhapFlash=Y&amp;aid=0012759254"
+                        class="issue"
+                        data-clk="quickarticle">"코로나 이후 체감물가, 저소득층에서 더 올랐다"</a>
+                    <div class="direct_area">
+                        <a href="http://news.naver.com/" class="link_news" data-clk="newshome">네이버뉴스</a>
+                        <a
+                            href="http://entertain.naver.com/home"
+                            class="link_direct"
+                            data-clk="entertainment">연예</a>
+                        <a href="http://sports.news.naver.com/" class="link_direct" data-clk="sports">스포츠</a>
+                        <a
+                            href="http://news.naver.com/main/main.nhn?mode=LSD&amp;mid=shm&amp;sid1=101"
+                            class="link_direct"
+                            data-clk="economy">경제
+                        </a>
+                    </div>
                 </div>
-                <div class="issusInfo"> 이슈 코로나</div>
+                <div class="issusInfo">
+                    <i class="news_badge">이슈
+                    </i>
+                    코로나바이러스감염증-19 현황
+                </div>
             </div>
-            <!-- //뉴스 스탠스  -->
+            <!-- //뉴스 스탠스 -->
             <div class="news_stance">
                 뉴스 스탠스
             </div>
             <!-- //오늘 읽을만한 글 -->
             <div class="today_read">
-                오늘 읽을만한 글 
+                오늘 읽을만한 글
             </div>
         </div>
-      </div>
     </div>
+</div>
 
-  </body>
+</body>
 </html>
